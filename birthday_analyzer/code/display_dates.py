@@ -16,8 +16,7 @@ def display_birthdays_with_counts(birthday_dict: Dict[str, List[str]]) -> None:
     """
     for date, names in birthday_dict.items():
         print(f"\n{date} ({len(names)} people):")
-        for name in names:
-            print(f"  - {name}")
+        print(names)
 
 
 def sort_by_date(birthday_dict: Dict[str, List[str]]) -> Dict[str, List[str]]:
