@@ -51,7 +51,7 @@ def sanitize_url(href, base_url):
     return href
 
 def extract_links(html, base_url):
-    soup = BeautifulSoup(html, 'lxml')
+    soup = BeautifulSoup(html, 'html.parser')
     links = set()
 
     for tag in soup('a'):

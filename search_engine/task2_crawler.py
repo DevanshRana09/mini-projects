@@ -11,7 +11,7 @@ def get_root(url):
 
 
 # noinspection D
-def crawl_seed(start_url, max_pages=10, delay=0.5):
+def crawl_seed(start_url, max_pages=10, delay=0.1):
     root = get_root(start_url)
     to_visit = deque([start_url])
     visited = set()
