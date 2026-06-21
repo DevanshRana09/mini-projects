@@ -1,0 +1,3107 @@
+[
+  {
+    "Course ID": "BSBT4001",
+    "Course Name": "Algorithmic Thinking in Bioinformatics",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Why computational biology?"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Where in the Genome Does DNA Replication Begin? - Algorithmic warmup (frequent exact/inexact k-mers in a string)."
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Which DNA Patterns Play the Role of Molecular Clocks? - Randomized Algorithms (randomized motif search, Gibbs sampling)."
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "How Do We Assemble Genomes? - Graph Algorithms (Eulerian paths, de Bruijn graphs)."
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "How Do We Compare Biological Sequences? - Dynamic Programming (edit distance, single/multiple sequence alignment)."
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Which Animal Gave Us SARS? - Evolutionary Tree Reconstruction (distance-based phylogeny, neighbor-joining algorithm)."
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "How Did Yeast Become a Winemaker? - Clustering Algorithms (hard and soft k-means)."
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "How Do We Locate Disease-Causing Mutations? - Combinatorial Pattern Matching (suffix trees/arrays, Burrows-Wheeler transform)."
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Why Have Biologists Still Not Developed an HIV Vaccine? - Hidden Markov Models (Viterbi and forward–backward algorithms)."
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Was T. rex Just a Big Chicken? - Computational Proteomics (peptide identification and spectral match)."
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Which Motifs Are Hidden in a Biological Network? - Randomized Algorithms (colour coding for long paths in graphs)."
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSBT4001.html"
+  },
+  {
+    "Course ID": "BSBT4002",
+    "Course Name": "Big Data and Biological Networks",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction to Biological Big Data. Information Flow in Biological Systems."
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Omics datasets: Various flavours of big biological datasets (genomic, transcriptomic, proteomic, metabolomic, etc.)."
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Introduction to Graph theory. History. Types of graphs. Representing biological networks."
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Network structure: Key parameters, measures of centrality"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Key Network Models: Erdos-Renyi, Watts-Strogatz (small-world) and Barabasi-Albert (power-law models)"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Network clustering/community detection. Identifying motifs in networks. Studying network perturbations."
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Applications of network biology: Predicting drug targets, predicting drug molecules, synthesis of new molecules (chemoinformatics)"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Applications of network biology: Epidemiology, Centrality-lethality hypothesis."
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "AI & ML for Biological Data Analysis. Introduction to AI & ML tasks in biological networks."
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Biological network reconstruction from omics and literature data"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Property prediction using network data. Node classification and link prediction."
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Analysis of heterogeneous and multi-layer/multiplex networks. Future Perspectives."
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSBT4002.html"
+  },
+  {
+    "Course ID": "BSCS1001",
+    "Course Name": "Computational Thinking",
+    "Course Level": "Foundation",
+    "Course Credits": "4",
+    "Course Type": "Foundational",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Applying a procedural approach to real life problems: sequencing basic steps, identifying common patterns.",
+      "Communicating procedural descriptions: flowcharts, pseudo-code.",
+      "Understanding underlying abstractions used in programming, through examples: variables, iteration, accumulation, filtering, parametrised procedures, polymorphism and state.",
+      "Selecting appropriate data structures to store relationships between data: lists, trees, matrices, graphs.",
+      "Identifying algorithmic techniques to solve a given problem: searching, sorting, indexing, matching.",
+      "Decomposing problems into smaller units to find a solution: recursion, divide and conquer.",
+      "Understanding and checking algorithms: predict their behaviour, design tests to verify their output, perform simple debugging."
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Variables, Initialization, Iterators, Filtering, Datatypes, Flowcharts, Sanity of data"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Iteration, Filtering, Selection, Pseudocode, Finding max and min, AND operator"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Multiple iterations (non-nested), Three prizes problem, Procedures, Parameters, Side effects, OR operator"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Nested iterations, Birthday paradox, Binning"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "List, Insertion sort"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Table, Dictionar"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Graph, Matrix"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Adjacency matrix, Edge labelled graph"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Backtracking, Tree, Depth First Search (DFS), Recursion"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Object oriented programming, Class, Object, Encapsulation, Abstraction, Information hiding, Access specifiers"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Message passing, Remote Procedure Call (RPC), Cache memory, Parallelism, Concurrency, Polling, Preemption, Multithreading, Producer Consumer, Atomicity, Consistency, Race condition, Deadlock, Broadcasting"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Top-down approach, Bottom-up approach, Decision tree, Numerical prediction, Behaviour analysis, Classification"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS1001.html"
+  },
+  {
+    "Course ID": "BSCS1002",
+    "Course Name": "Programming in Python",
+    "Course Level": "Foundation",
+    "Course Credits": "4",
+    "Course Type": "Foundational",
+    "Pre-requisites": "BSCS1001 -  Computational Thinking",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Using basic programming concepts such as variables, expressions, loops, conditionals and functions in Python",
+      "Creating, manipulating, and using more Python specific features such as lists, tuples, and dictionaries",
+      "Familiarising with and using common Python libraries such as random, math, datetime, scipy, matplotlib, Pandas etc",
+      "Analysing real life activities and casting them as programming problems",
+      "Applying programming concepts to analyse and solve diverse problems",
+      "Writing Readable code and debugging it",
+      "Building small applications using python"
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction to algorithms"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Conditionals"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Conditionals (Continued)"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Iterations and Ranges"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Iterations and Ranges (Continued)"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Basic Collections in Python"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Basic Collections in Python (Continued)"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Basic Collections in Python (Continued)"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "File Operations"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "File Operations (Continued)"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Module system in python"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Basic Pandas and Numpy processing of data"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS1002.html"
+  },
+  {
+    "Course ID": "BSCS2001",
+    "Course Name": "Database Management Systems",
+    "Course Level": "Diploma",
+    "Course Credits": "4",
+    "Course Type": "Programming",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Course Overview"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Relational Model and Basic SQL"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Intermediate and Advanced SQL"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Relational Query Languages and Database Design"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Functional Dependency and Normal Forms"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Functional Dependency and Normal Forms (cont.)"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Application Development"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Storage Management"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Indexing and Hashing"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Transactions"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Backup and Recovery"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Query Optimization and Conclusion"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS2001.html"
+  },
+  {
+    "Course ID": "BSCS2002",
+    "Course Name": "Programming, Data Structures and Algorithms using Python",
+    "Course Level": "Diploma",
+    "Course Credits": "4",
+    "Course Type": "Programming",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Evaluating asymptotic upper bounds for algorithms using big O notation",
+      "Using standard data structures such as lists, arrays, stacks, queues, heaps",
+      "Comparing algorithms for sorting and searching",
+      "Representing, manipulating and analysing graphs",
+      "Mastering algorithm design techniques such as divide and conquer and dynamic programming",
+      "Applying linear programming and network flows to model computational problems."
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Python Refresher"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Complexity, Notations, Sorting and Searching Algorithms"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Arrays, Lists, Stacks, Queues, Hashing"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Graph Algorithms"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Graph Algorithms (Continued)"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Union-Find Data Structure, Priority Queue, Heap, Binary Search Tree"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Balanced Search Tree, Greedy Algorithms"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Divide and Conquer"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Dynamic Programming"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "String or Pattern Matching Algorithms"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Network Flows, Linear Programming, Class of Algorithms"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Summary"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS2002.html"
+  },
+  {
+    "Course ID": "BSCS2003",
+    "Course Name": "Modern Application Development I",
+    "Course Level": "Diploma",
+    "Course Credits": "4",
+    "Course Type": "Programming",
+    "Pre-requisites": "None",
+    "Co-requisites": "BSCS2001 -  Database Management Systems",
+    "What you'll learn": [
+      "To be able to design a web application",
+      "To be able to distinguish between the frontend, the backend, and the database activities",
+      "To create such an application with Python and MySQL"
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Basic terminologies of Web"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Webpages written in HTML and CSS"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Presentation layer - View"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Models - Introduction to databases"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Controllers - Business logic"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "APIs and REST APIs"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Backend Systems"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Application Frontend"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Application Security"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Testing of Web Applications"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "HTML Evolution and Beyond HTML"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Application Deployment"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS2003.html"
+  },
+  {
+    "Course ID": "",
+    "Course Name": "Modern Application Development I - Project",
+    "Course Level": "",
+    "Course Credits": "2",
+    "Course Type": "Programming",
+    "Pre-requisites": "None",
+    "Co-requisites": "BSCS2003 -  Modern Application Development I",
+    "What you'll learn": [
+      "The objective of this course project is to provide hands-on experience in developing a web application from scratch, integrating various technologies taught throughout the course.",
+      "Students will apply their knowledge to create a functional web application that incorporates secure authentication, efficient data management, and API integration.",
+      "The project aims to reinforce understanding of key concepts, foster problem-solving skills, and enhance proficiency in web application development.",
+      "Upon completing this course project, learners will acquire proficiency in HTML, CSS, JavaScript, Flask, and SQLite, enabling them to develop robust web applications.",
+      "Students will gain practical experience in implementing secure authentication mechanisms, optimizing application performance, and integrating APIs to enhance functionality.",
+      "The project will equip learners with skills in deploying web applications, considering security measures, and ensuring efficient data storage and retrieval."
+    ],
+    "Weekwise Structure": [],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS2003P.html"
+  },
+  {
+    "Course ID": "BSCS2004",
+    "Course Name": "Machine Learning Foundations",
+    "Course Level": "Diploma",
+    "Course Credits": "4",
+    "Course Type": "Data Science",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Recognising if a particular problem can be viewed as a Machine Learning problem.",
+      "Breaking down standard Machine Learning problems into more fundamental problems using tools from Calculus, Linear Algebra, Probability and Optimisation.",
+      "Recognising relationships between equation solving, projection onto a subspace, and the supervised learning problem of linear least squares regression.",
+      "Visualising eigenvalue/eigenvectors as a property of a matrix, and recognising its potential in practical unsupervised learning problems like dimensionality reduction and image compression.",
+      "Using, identifying failure modes, programming and debugging simple gradient descent methods for solving unconstrained optimisation problems.",
+      "Recognising the value of simple models like Gaussian mixture models for data, constructing algorithms for learning the parameters of such models, and interpreting these parameters."
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction to machine learning"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Calculus"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Linear Algebra - Least Squares Regression"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Linear Algebra - Eigenvalues and eigenvectors"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Linear Algebra - Symmetric matrices"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Linear Algebra - Singular value decomposition, Principal Component Analysis in Image Processing"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Unconstrained Optimisation"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Convex sets, functions, and optimisation problems"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Constrained Optimisation and Lagrange Multipliers. Logistic regression as an optimization problem"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Examples of probabilistic models in machine learning problems"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Exponential Family of distributions"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Parameter estimation. Expectation Maximization."
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS2004.html"
+  },
+  {
+    "Course ID": "BSCS2005",
+    "Course Name": "Programming Concepts using Java",
+    "Course Level": "Diploma",
+    "Course Credits": "4",
+    "Course Type": "Programming",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Creating simple object-oriented programs in Java",
+      "Understanding encapsulation, separating interface from implementation",
+      "Implementing abstraction through a hierarchy of classes and objects",
+      "Dealing gracefully with errors and exceptions",
+      "Controlling concurrent access to data through locks, semaphores and monitors"
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Basic Object Oriented Programming: Class Hierarchy"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Basic Object Oriented Programming: Inheritance, Overriding"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Basic Object Oriented Programming: Polymorphism"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Basic Object Oriented Programming: Abstract Classes"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Collections. Iterators."
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Generics. Callbacks."
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Cloning. I/O serializations. Packages"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Cloning. I/O serializations. Packages (Continued)"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Exception handling"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Concurrent programming"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Concurrent programming (Continued)"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Concurrent programming (Continued)"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS2005.html"
+  },
+  {
+    "Course ID": "BSCS2006",
+    "Course Name": "Modern Application Development II",
+    "Course Level": "Diploma",
+    "Course Credits": "4",
+    "Course Type": "Programming",
+    "Pre-requisites": "BSCS2003 -  Modern Application Development I",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "To be able to build highly interactive frontends using Vue",
+      "To be able to integrate the Vue frontend with the backend viva APIs",
+      "To learn best practices involved in designing web APIs, and authentication mechanisms",
+      "To be able to handle asynchronous backend jobs execution",
+      "To be able to implement caching, and performance measurement for a web application",
+      "To be able to distinguish between the frontend, the backend, and the database activities"
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Basics of JavaScript"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Advanced JavaScript"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Introduction to Web Frontend"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Introduction to VueJS"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Vue with APIs"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Advanced Vuejs"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Advanced State Management"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Authentication and Designing APIs"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Asynchronous Jobs"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Inter-Service Messaging and Webhooks"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Performance"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Project"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS2006.html"
+  },
+  {
+    "Course ID": "",
+    "Course Name": "Modern Application Development II - Project",
+    "Course Level": "",
+    "Course Credits": "2",
+    "Course Type": "Programming",
+    "Pre-requisites": "BSCS2003P -  Modern Application Development I - Project",
+    "Co-requisites": "BSCS2006 -  Modern Application Development II",
+    "What you'll learn": [
+      "The objective of this course project is to provide learners with hands-on experience in developing advanced web applications using Vue.js and related technologies.",
+      "Students will work on building a functional web application that incorporates interactive frontend components, efficient state management using Vuex, token-based authentication for enhanced security, and asynchronous task execution using Celery and Redis.",
+      "The project aims to reinforce knowledge gained in \"Modern Application Development - I\" and introduce advanced concepts in web development.",
+      "Proficiency in advanced frontend technologies such as Vue.js, Vue Router, and Vuex, enabling them to build interactive and dynamic user interfaces.",
+      "Understanding and implementation of token-based authentication for secure user authentication and authorization.",
+      "Knowledge and practical experience in using Celery and Redis for asynchronous task execution, improving application performance and scalability.",
+      "Familiarity with caching techniques to optimize data retrieval and enhance application efficiency.",
+      "Understanding of security and privacy considerations in web development, including handling CORS (Cross-Origin Resource Sharing) and ensuring secure user interactions."
+    ],
+    "Weekwise Structure": [],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS2006P.html"
+  },
+  {
+    "Course ID": "BSCS2007",
+    "Course Name": "Machine Learning Techniques",
+    "Course Level": "Diploma",
+    "Course Credits": "4",
+    "Course Type": "Data Science",
+    "Pre-requisites": "None",
+    "Co-requisites": "BSCS2004 -  Machine Learning Foundations",
+    "What you'll learn": [
+      "Demonstrating In depth understanding of machine learning algorithms - model, objective or loss function, optimization algorithm and evaluation criteria.",
+      "Tweaking machine learning algorithms based on the outcome of experiments - what steps to take in case of underfitting and overfitting.",
+      "Being able to choose among multiple algorithms for a given task.",
+      "Developing an understanding of unsupervised learning techniques."
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction; Unsupervised Learning - Representation learning - PCA"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Unsupervised Learning - Representation learning - Kernel PCA"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Unsupervised Learning - Clustering - K-means/Kernel K-means"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Unsupervised Learning - Estimation - Recap of MLE + Bayesian estimation, Gaussian Mixture Model - EM algorithm."
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Supervised Learning - Regression - Least Squares; Bayesian view"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Supervised Learning - Regression - Ridge/LASSO"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Supervised Learning - Classification - K-NN, Decision tree"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Supervised Learning - Classification - Generative Models - Naive Bayes"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Discriminative Models - Perceptron; Logistic Regression"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Support Vector Machines"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Ensemble methods - Bagging and Boosting (Adaboost)"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Artificial Neural networks: Multiclass classification."
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS2007.html"
+  },
+  {
+    "Course ID": "BSCS2008",
+    "Course Name": "Machine Learning Practice",
+    "Course Level": "Diploma",
+    "Course Credits": "4",
+    "Course Type": "Data Science",
+    "Pre-requisites": "BSCS2004 -  Machine Learning FoundationsBSCS2007 -  Machine Learning Techniques",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Understand the life cycle of a machine learning project - typical steps involved and tools that can be used in each step.",
+      "Using machine learning algorithms to solve practical problems using libraries like scikit-learn and tensorflow.",
+      "Fine tuning the algorithms through regularization, feature selection, and better models.",
+      "Develop an understanding of evaluation of machine learning algorithms and decide the next steps based on the analysis."
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "End-to-end machine learning project on scikit-learn"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Graph Theory(VOL 3)"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Regression on scikit-learn - Linear regression\nGradient descent - batch and stochastic."
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Polynomial regression, Regularized models"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Logistic regression"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Classification on scikit-learn - Binary classifier"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Classification on scikit-learn - Multiclass classifier"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Support Vector Machines using scikit-learn"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Decision Trees, Ensemble Learning and Random Forests"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Decision Trees, Ensemble Learning and Random Forests (Continued)"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Neural networks models in scikit-learn"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Unsupervised learning"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS2008.html"
+  },
+  {
+    "Course ID": "",
+    "Course Name": "Machine Learning Practice - Project",
+    "Course Level": "",
+    "Course Credits": "2",
+    "Course Type": "Data Science",
+    "Pre-requisites": "None",
+    "Co-requisites": "BSCS2008 -  Machine Learning Practice",
+    "What you'll learn": [
+      "The MLP Project is conducted on Kaggle platform.",
+      "Kaggle is a well recognized platform among data science professionals that will familiarize you with many latest problems being currently solved by organizations across the world.",
+      "Good place to practice your ML skills and knowledge. Looks good on your resume, especially if you have won medals and badges.",
+      "The project runs for 12 to 15 weeks. The project is divided into several milestones. These milestones divide the ML cycle into smaller and manageable steps. These milestones guide you to make steady progress.",
+      "After completing the project you will gain experience of applying different ML techniques on real world data.",
+      "You will gain proficiency in numpy, panda and sklearn libraries.",
+      "You will become familiar with the 5 components of any ML project i.e. data, model, cost function, optimization and evaluation, i.e. in short, with complete end to end process of a machine learning project.",
+      "In order to successfully complete the project, a viva will be conducted by an industry expert. This viva prepares you for ML interviews."
+    ],
+    "Weekwise Structure": [],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS2008P.html"
+  },
+  {
+    "Course ID": "BSCS3001",
+    "Course Name": "Software Engineering",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Core Option I",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Deconstructing the software development process"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Identify different types of software requirements (functional, non-functional)"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Software Conceptual Design"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Software Usability"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Software Design - Modeling and Architecture"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Software Design - Quality and Evaluation"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Software Development - Program Comprehension"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Software Development - Program Debugging"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Software - Code Reviewing and Documentation"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Software Testing"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Software Deployment and Monitoring"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Conclusion and other Aspects: Communication, Productivity and Organizations"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS3001.html"
+  },
+  {
+    "Course ID": "BSCS3002",
+    "Course Name": "Software Testing",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Core Option I",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Software Testing: Motivation, Software Development Life Cycle, Terminologies and Processes, Software Test Automation: JUnit as an example"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Basics of Graphs, Fundamental Graph Algorithms, Elementary Graph Algorithms, Structural Graph Coverage Criteria, Algorithms: Structural Graph Coverage Criteria"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Graph Coverage Criteria: Applied to Test Code, Data Flow in Graphs,, Data Flow Testing Example, Unit Testing Based on Graphs: Summary"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Software Design and Integration Testing, Design Integration Testing and Graph Coverage, Specification Testing and Graph Coverage, Graph Coverage and Finite State Machines (FSM), Testing Source Code: Classical Coverage Criteria"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Logic: Basics needed for Software Testing, Coverage Criteria, Logic Coverage Criteria: Making clauses determine predicate, Applied to test code"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Logic: Coverage Example, Coverage Specification, Coverage FSM, Coverage Summary, SMT - Solvers"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Symbolic Testing, Concolic Execution, Example and Summary Symbolic Execution"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Requirements, Functional Testing,  ISP, ISP Example"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Regular Expense CFGs, Mutation Testing, Mutation Operators Source Code, Mutation Testing Vs Other Criteria, Mutation Testing For Integration And Tools"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Basic Object Oriented (OO) Integration Concepts, Mutation Operators OO Integration, Mutation Operators OO Integration, OO Faults, Coupling Criteria"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Web Apps Intro, Client Side Testing, Server Side Testing"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Regression Testing, Software Quality Metrics, Non Functional Testing, TDD,Course Summary"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS3002.html"
+  },
+  {
+    "Course ID": "BSCS3003",
+    "Course Name": "AI: Search Methods for Problem Solving",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Core Option II",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Get a historical and philosophical perspective on artificial intelligence.",
+      "The ability to formulate problems in a general problem solving framework.",
+      "Knowledge of domain independent search based problem solving algorithms.",
+      "Knowledge of stochastic, local, and population based search algorithms.",
+      "The foundations of problem decomposition and rule based methods.",
+      "Ability to implement game playing algorithms.",
+      "An understanding of the relation between search methods and other with other\nformulations including planning, constraints and logical reasoning."
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction and philosophy. The Turing Test. The Winograd Schema Challenge. Placing search in the landscape of AI."
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Search spaces. Examples. State space search. Depth First, Breadth First, Iterative Deepening. Analysis."
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Heuristic search. Heuristic functions. Solution space search. Escaping local optima. Stochastic local search."
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Population based methods. Genetic Algorithms, emergent systems, Ant Colony Optimization."
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Finding optimal paths. Algorithm A*. Admissibility of A*."
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "The monotone condition. Space saving versions of A*. Sequence alignment."
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Game playing. Board games. Algorithms Minimax, Alpha-Beta, and SSS*."
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Automated domain independent planning. Goal Stack Planning, Partial Order Planning."
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Problem decomposition with goal trees. Algorithm AO*."
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Pattern directed inference systems. Forward chaining inference engine. The Rete algorithm."
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Constraint processing. Algorithm Backtracking. Arc consistency. Combining search and reasoning. Waltz algorithm. Model based diagnosis."
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS3003.html"
+  },
+  {
+    "Course ID": "BSCS3004",
+    "Course Name": "Deep Learning",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Core Option II",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "A brief history of deep learning and its success stories.",
+      "Perceptrons, Sigmoid neurons  and Multi-Layer Perceptrons (MLP) with specific emphasis on their representation power and algorithms used for training them (such as Perceptron Learning Algorithm and Backpropagation).",
+      "Gradient Descent (GD) algorithm and its variants like Momentum based GD,AdaGrad, Adam etc\nPrincipal Component Analysis and its relation to modern Autoencoders.",
+      "The bias variance tradeoff and regularisation techniques used in DNNs (such as L2 regularisation, noisy data augmentation, dropout, etc).",
+      "Different activation functions and weight initialization strategies",
+      "Convolutional Neural Networks (CNNs) such as AlexNet, ZFNet, VGGNet, InceptionNet and ResNet.",
+      "Recurrent Neural Network (RNNs) and their variants such as LSTMs and GRUs (in particular, understanding the vanishing/exploding gradient problem and how LSTMs overcome the vanishing gradient problem)",
+      "Applications of CNN and RNN models for various computer vision and Natural Language Processing (NLP) problems."
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "History of Deep Learning, McCulloch Pitts Neuron, Thresholding Logic, Perceptron Learning Algorithm and Convergence"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Multilayer Perceptrons (MLPs), Representation Power of MLPs, Sigmoid Neurons, Gradient Descent"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Feedforward Neural Networks, Representation Power of Feedforward Neural Networks, Backpropagation"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Gradient Descent(GD), Momentum Based GD, Nesterov Accelerated GD, Stochastic GD, Adagrad, AdaDelta,RMSProp, Adam,AdaMax,NAdam, learning rate schedulers"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Autoencoders and relation to PCA , Regularization in autoencoders, Denoising autoencoders, Sparse autoencoders, Contractive autoencoders"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Bias Variance Tradeoff, L2 regularization, Early stopping, Dataset augmentation, Parameter sharing and tying, Injecting noise at input, Ensemble methods, Dropout"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Greedy Layer Wise Pre-training, Better activation functions, Better weight initialization methods, Batch Normalization"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Learning Vectorial Representations Of Words, Convolutional Neural Networks, LeNet, AlexNet, ZF-Net, VGGNet, GoogLeNet, ResNet"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Visualizing Convolutional Neural Networks, Guided Backpropagation, Deep Dream, Deep Art, Fooling Convolutional Neural Networks"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Recurrent Neural Networks, Backpropagation Through Time (BPTT), Vanishing and Exploding Gradients, Truncated BPTT"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Gated Recurrent Units (GRUs), Long Short Term Memory (LSTM) Cells, Solving the vanishing gradient problem with LSTM"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Encoder Decoder Models, Attention Mechanism, Attention over images, Hierarchical Attention, Transformers."
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS3004.html"
+  },
+  {
+    "Course ID": "BSCS3005",
+    "Course Name": "Programming in C",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Write, compile, and run programs in C in a Linux environment; debugging tools"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Variables, built-in datatypes, operators; Control flow - conditionals, loops"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Modularity and functions; variable scope"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Input/Output; Files"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Pointers, memory, arrays, strings"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Multi-dimensional arrays, dynamic memory allocation; issues - memory leaks, management"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Standard library and common extensions (math, time, etc.)"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Implementation concepts: compilation and execution process; heap/stack; runtime and OS interface"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS3005.html"
+  },
+  {
+    "Course ID": "BSCS3021",
+    "Course Name": "Theory of Computation",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Understand formal models of computation including finite-state machine and pushdown automata and associated languages",
+      "Understand the concept of non-determinism",
+      "Design and simulate Turing Machines to explore the boundaries of computability",
+      "Analyze computational complexity",
+      "Use reductions to relate problems to argue about computability, NP-Completeness and the limits of efficient computation",
+      "Appreciate the landscape of complexity theory",
+      "Develop formal reasoning and proof skills"
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction to Theory of Computation with Finite Automata."
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Regular Languages and Regular Expressions."
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Regular Languages, DFA Minimization, and Pumping Lemma."
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Context-Free Languages (CFLs) and Parse Trees."
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Pushdown Automata and Recognizers of CFLs."
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Non-CFLs and Introduction to Turing Machines."
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Variants of Turing Machines and the Church–Turing Thesis."
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Decidability and Undecidable Problems."
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Reductions and Proving Undecidability."
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Time and Space Complexity."
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Polynomial-Time Reductions and Hard Problems."
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "NP-Completeness and Course Summary."
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS3021.html"
+  },
+  {
+    "Course ID": "BSCS3031",
+    "Course Name": "Computer Systems Design",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": "BSCS3005 -  Programming in C",
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Course Overview, Building  Blocks of Computer Systems"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Foundation of Logical Circuits, Introduction to Boolean Algebra"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Canonical Forms (SOP & POS), Universal Gates and Timing Diagrams"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "N- bit Comparator, Multiplexer, Encoder and Decoder"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Adder and PLA, Boolean Logic Simplification, K-maps"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Introduction to Circuit verse, 7 Segment LED Display"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Introduction to Sequential Circuits"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Registers, Counters"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Sequential logic design, FSM Design"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Instruction Set architecture"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "ALU Design"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "CPU Design"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS3031.html"
+  },
+  {
+    "Course ID": "BSCS4001",
+    "Course Name": "Data Visualization Design",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Information visualization overview, historical perspective"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Vision, perception and cognition principles of information visualization"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Data principles and models"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Analysis and Insights"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Geo-visualization"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Map Abstraction"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Visual encoding of data"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Visualization design"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Data Stories"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Project presentations, Wrap up and course summary"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS4001.html"
+  },
+  {
+    "Course ID": "BSCS4003",
+    "Course Name": "Privacy & Security in Online Social Media",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "List various privacy and security concerns (spam, phishing, fraud nodes, identity theft) on online social networks",
+      "Describe different methodologies used for solving security and privacy problems on online social networks",
+      "Student will be able to collect data from OSM, analyze, and visualize the data within the context of Privacy & Security in Online Social Media",
+      "Design a project idea to attack one problem discussed in the course or any topic you identify in the online social networks (through Mini-Project)(Optional)"
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Topics – Assessments \nSocial network analysis 101 –"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Collecting data from social media – Collect data, analyze, and report"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Text analysis of social media data – Analyze data and report"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Cyber crime on social media – Analyze data and report"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Cyber crime on social media – Reading paper and report"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Fake news on social media – Analyze data and report"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Fake news on social media – Reading paper and report"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Privacy on social media – Analyze data and report"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Privacy on social media – Reading paper and report"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Ethics, bias on online social media – Reading paper and report"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Computational social science – Reasoning / Comprehension of ideas"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Computational social science on online social media – Reading paper and report"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS4003.html"
+  },
+  {
+    "Course ID": "BSCS4010",
+    "Course Name": "App Dev LAB",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Build full-stack web applications using Node.js, TypeScript, Express, and React.",
+      "Write efficient code and solve problems using key Data Structures & Algorithms.",
+      "Manage backend logic, REST APIs, and connect to PostgreSQL databases.",
+      "Implement secure user authentication with JWT.",
+      "Use modern developer tools like Git, npm, and browser DevTools effectively."
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Course Overview & Practice DSA \n\nOverview of Course\nSetting Expectations & Goals\nEfficiency & Complexity Analysis \nData Structures: Arrays & Strings, Hash Tables & Sets, Linked Lists, Stacks & Queues, Heap, Trees & Graphs, Union-Find data structures. \nAlgorithm Design Techniques:Recursion & Backtracking, Divide and Conquer, Greedy Algorithms, Dynamic Programming \nProblem-Solving"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "JavaScript Essentials for Web Development\n\nThe role of JavaScript in modern web apps\nES6+ Features: let/const, arrow functions, template literals, destructuring\nFunctions, Arrays, Objects\nAsynchronous JS: Callbacks, Promises, async/await \nHands-on: Interactive JS challenges and code snippets"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Developer Tools & Workflows\n\nHow the web works: Client-Server, HTTP, APIs\nIntroduction to Git and GitHub/GitLab\nVersion Control: init, add, commit, push, pull, branching\nnpm, package.json\nHands-on: GitHub setup and npm usage in a mini project"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Introduction to Backend Development with Node.js & TypeScript (Part 1)\n\nWhat is Node.js?\nEvent-driven architecture & single-threaded nature\nNode.js in the web development ecosystem \nSetting Up a TypeScript Project with Node.js\ntsconfig.json basics \nCompiling TypeScript and running with ts-node\nModules, imports/exports (ES6-style) \nWriting a basic HTTP server in TypeScript \nHands-on: simple route handling"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Building REST APIs with Express.js & TypeScript (Part 2)\n\nIntroduction to Express.js with TypeScript \nDefining routes, handling requests/responses\nMiddleware concepts and implementation\nStructuring an Express app in TypeScript \nError handling & basic input validation\nHands-on: Building a small CRUD API (e.g., Task Manager or Notes API)"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "SQL & PostgreSQL\n\nWhat is SQL?\nRelational DB concepts: Tables, Keys \nLearning to write basic queries in SQL\nJoins in SQL\nData Filtering using SQL\nPagination in SQL"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Integrating Express.js with PostgreSQL\n\nIntroduction to ORM (TypeORM or Prisma) \nEntity design & schema modeling \nConnecting Express to PostgreSQL\nHands-on: Full CRUD API with DB persistence"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Authentication & Application Security\n\nIntroduction to Authentication \nHashing passwords with bcrypt \nJWT-based authentication\nRoute protection and user sessions \nHands-on: Secure login & register flow"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "React.js Fundamentals - Components & JSX\n\nWhat is React? Understanding Virtual DOM \nSetting up a React Project with Vite \nJSX & Component-Based Architecture \nFunctional Components & Props\nHands-on: Building Simple UI Components"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "React.js - State Management & Event Handling\n\nIntroduction to State (useState Hook) \nHandling User Input & Events\nConditional Rendering\nLists & Keys in React \nuseEffect Hook \nHands-on: Building Interactive Components"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "React.js - Routing & API Integration\n\nIntroduction to React Router \nImplementing Navigation & Dynamic Routing \nMaking API Calls using Fetch / Axios \nHandling API Responses & Errors (+ CORS)\nHands-on: Fetching & Displaying Data in a React App"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Full-Stack Project - Planning & Development\n\nStructuring a Full-Stack Application\nCombining React.js, Express.js, and Databases\nImplementing CRUD Operations End-to-End\nHands-on: Developing a Full-Stack Feature\nDeployment? - which platform?"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS4010.html"
+  },
+  {
+    "Course ID": "BSCS4021",
+    "Course Name": "Advanced Algorithms",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Greedy Algorithms: Storing Files on Tape; Scheduling Classes; Stable Matchings"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Matroids: A Generic Optimization Problem, Motivating the Definition, Examples of Matroids, Scheduling with Deadlines"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Dynamic Programming: Longest Increasing Subsequence, Edit Distance, Subset Sum, Optimal BSTs"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Maximum Flows: Flows, Cuts, Maxflow-Mincut, Augmenting Paths, Bipartite Matchings, Other Settings"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Applications of Flows: Exam Scheduling, Baseball Elimination, Project Selection"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "NP-hardness: P, NP, NP-hardness, NP-completeness, Reductions and SAT, 3SAT, Maximum Independent Set, Graph Coloring, Subset Sum"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Approximation Algorithms: Introduction to Approximation Frameworks, Vertex Cover via Maximal Matchings, Vertex Cover via LP rounding, TSP, Set Cover"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Randomized Algorithms – Monte Carlo v. Las Vegas, Min-Cut Algorithm, MAX SAT via the Probabilistic Methods, 2SAT via Markov Chains, Primality Testing"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Exact Algorithms – Branch and Bound, An Inclusion-Exclusion approach to Hamiltonian Path, Dynamic Programming for TSP, Local Search"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Parameterized Algorithms – Closest String, Iterative Compression for FVS, Randomized Algorithm for k-Path, DP over subsets - Set Cover"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Kernelization – Vertex Cover, Matrix Rigidity, Feedback Arc Set on Tournaments, Max Sat, Edge Clique Cover"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Practical Approaches to Coping with Hardness – SAT Solvers, SAT reductions, LP solvers, LP reductions"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS4021.html"
+  },
+  {
+    "Course ID": "BSCS4022",
+    "Course Name": "Operating System",
+    "Course Level": "Degree",
+    "Course Credits": "",
+    "Course Type": "",
+    "Pre-requisites": "BSCS3031 -  Computer Systems Design",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction and system organization"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Booting /Memory management"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Processes and system calls"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Child process, first process, fork, exit and wait system calls"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Exec system call, Executables, ELF format"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Interrupts and interrupts handling"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Scheduling"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Synchronization"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Deadlocks and Threads"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "File system"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Security: OS security and Side-Channel Attacks"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Security: TEEs and Buffer Overflow"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS4022.html"
+  },
+  {
+    "Course ID": "BSCS4024",
+    "Course Name": "Computer Networks",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "BSCS3005 -  Programming in C",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction to Computer Networking and Internet Architecture"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Understanding the Layered Protocol Stack and Packet Analysis"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Fundamentals of Network Performance and Delay Metrics"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Quality of Experience (QoE) and Web Performance Measurement"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Foundations of Socket Programming and Client-Server Models"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Application-Level Protocols and TCP Traffic Analysis"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Reliable Data Transfer and Transport Layer Mechanisms"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Flow Control and Sliding Window Protocols in TCP"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Congestion Control Algorithms and TCP Fairness"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "IP Addressing, Subnetting, and Routing Principles"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Routing Algorithms and Internetworking"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Medium Access Control and Wireless Communication Protocols"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSCS4024.html"
+  },
+  {
+    "Course ID": "BSDA2001",
+    "Course Name": "Introduction to DL and GenAI",
+    "Course Level": "Diploma",
+    "Course Credits": "4",
+    "Course Type": "Data Science",
+    "Pre-requisites": "None",
+    "Co-requisites": "BSCS2008 -  Machine Learning Practice",
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Artificial Neural Networks - Theory\nIntroduction to Deep Learning, Artificial neurons, neural networks, layers, Activation functions and loss metrics"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Artificial Neural Networks - Practice\nHands-on: Build simple neural networks using TensorFlow/Keras, Experimentation with activation functions and optimization methods"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Modeling Vision — CNN - Theory\nIntroduction to Convolutional Neural Networks (CNNs), CNN architecture basics, convolution and pooling layers"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Modeling Vision — CNN - Practice\nHands-on: CNN-based image classification (e.g., MNIST, CIFAR-10)"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Modeling Sequential Data - Theory\nSequence models, Recurrent Neural Networks (RNNs), LSTMs"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Modeling Sequential Data - Practice\nHands-on: Sentiment analysis with LSTM, Text generation with simple RNN/LSTM models, Time series prediction tasks"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Generative AI for vision —Variational AutoEncoders and GANs - Theory\nIntroduction to Generative AI, Autoencoders and Variational Autoencoders (VAEs) basics, GANs"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Generative AI for vision—Diffusion Models\nDiffusion Probabilistic models, training and inference"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Generative AI for vision— Practice\nGANs and Pretrained Diffusion Models to generate Images"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Large Language Models —Transformer Architecture\nWord Embeddings, Tokenization, Attention"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Large Language Models - encoder, decoder, encoder decoder models\nBERT like models for NLP tasks, Decoders for Text Generation, Machine Translation, Fine- Tuning LLMs (PEFT, LoRA )"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Large Language Models - Practice\nPrompting Techniques, Prompt Fine-tuning and other methods"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSDA2001.html"
+  },
+  {
+    "Course ID": "",
+    "Course Name": "Introduction to DL and GenAI Project",
+    "Course Level": "",
+    "Course Credits": "2",
+    "Course Type": "Data Science",
+    "Pre-requisites": "BSCS2007 -  Machine Learning Techniques",
+    "Co-requisites": "BSCS2008 -  Machine Learning PracticeBSDA2001 -  Introduction to DL and GenAI",
+    "What you'll learn": [
+      "Hands-on experience with deep learning frameworks like PyTorch, Huggingface.",
+      "Working with large language models (LLMs) and generative AI models (text, image, etc.)",
+      "Applying transformers, diffusion models, and fine-tuning techniques",
+      "Enhancing your profile with a Kaggle competition medal and an industry-relevant AI project",
+      "Preparing for technical viva conducted by an industry expert to simulate real interview conditions."
+    ],
+    "Weekwise Structure": [],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSDA2001P.html"
+  },
+  {
+    "Course ID": "BSDA4001",
+    "Course Name": "Data Science and AI Lab",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "BSCS3004 -  Deep Learning",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Week 1: Data Science & Python Stack Refresher\n\nKey tools: NumPy, Pandas, Matplotlib, Seaborn, Jupyter, Git"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Week 2: Machine Learning with Scikit-learn\n\nCore models: regression, classification, clustering\n\n\nPipelines, hyperparameter tuning, evaluation metrics"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Week 3: Deep Learning with PyTorch and TensorFlow\n\nBuilding and training deep neural networks\n\n\nModel saving/loading, GPU training"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Week 4: Computer Vision and Image Processing\n\nUsing OpenCV, PIL, PyTorch/TensorFlow for image loading, preprocessing\n\n\nTransfer learning with CNNs (ResNet, MobileNet)"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Week 5: NLP and LLMs using HuggingFace\n\nUsing BERT, RoBERTa for classification/generation\n\n\nTokenization, fine-tuning, and inference"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Week 6: Prompt Engineering, LangChain & LLM APIs\n\nWorking with LangChain, templates, and memory modules\n\n\nPrompt tuning best practices\n\n\nUsing OpenAI, Gemini, and Ollama APIs for inference"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Week 7: Retrieval-Augmented Generation (RAG) & Vector DBs\n\nConcepts of semantic search & embedding spaces\n\n\nUse of FAISS, Pinecone, ChromaDB"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Week 8: Agents and Autonomous AI (Langchain, LangGraph)\n\nConcepts of tool use, planning, multi-step task agents\n\n\nImplementing basic agents using LangChain"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Week 9: Data Visualization & Dashboards\n\nTools: PowerBI, Tableau, Streamlit, Plotly\n\n\nDashboard design, storytelling with data"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Week 10: Time Series Forecasting\n\nExploratory Analysis of Time Series\n\nForecasting using Facebook Prophet and DeepAR\nTrend, seasonality, holidays, anomaly detection"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Week 11: Big Data and Cloud Platforms - Google Cloud Platform\n\nBuild and run an end-to-end pipeline in GCP\n\nWorking with GCP, BigQuery, Vertex AI\n\nConcepts of Spark, Hadoop, Airflow, and model deployment"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Week 12: Model Explainability, Ethics & Mini-project\n\nTools: SHAP, LIME for understanding predictions\n\nConcepts: data privacy, fairness, AI ethics\nMini-project"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSDA4001.html"
+  },
+  {
+    "Course ID": "BSEE4001",
+    "Course Name": "Speech Technology",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "To understand the concepts of speech and speech technologies, and to apply them to real-world scenarios",
+      "To gain hands-on experience of the relevant toolkits used for speech processing"
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Review of Signals and Systems, Continuous time signals and transforms\nDiscrete time signals, Discrete Fourier transform, Autocorrelation and Cross-Correlation"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Acoustic Feature Analysis of Speech Signals I, II\nGaussian mixture models (GMM), universal background model (UBM-GMM), singular value decomposition (SVD)"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Hidden Markov model (HMM), Examples of HMM based approach for ASR, TTS, speaker diarization\nInformation bottleneck (IB) based clustering for diarization"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Introduction and History of ASR and TTS\nComponents of ASR: Acoustic Modelling, Punctuation Model (Lexicon) and language modelling (N-Gram Language models)"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "HMMs for Acoustic Modelling - Monophone, Triphone\nSpeech Synthesis: unit selection, statistical parametric synthesis (HTS)"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Neural networks for building speech technologies\nNN for Acoustic Modelling - Hybrid modelling- Hybrid-NN: DNN,CNN,TDNN"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "End-to-End Approaches I:\nCTC, Encoder-decoder Architecture E2E with RNN"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Applications to ASR and TTS\nEnd-to-End Approaches II"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Encoder-decoder Architecture E2E with transformers for ASR and TTS\nInteresting Problems"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Speaker recognition/verification: with ivector, xvector\nSpeaker diarization: using x-vector"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Speaker adaptation:  (revisit i, x vectors) and introduce s-vectors.        \nCode Switched Speech recognition; Speech Translation"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Singing voice synthesis; voice conversion; generic voice synthesis"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSEE4001.html"
+  },
+  {
+    "Course ID": "BSGN3001",
+    "Course Name": "Strategies for Professional Growth",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Mandatory",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Teamwork and Getting Along"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Communication and Listening Skills"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Cultivating a Growth Mindset"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Leadership Lessons"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Emotional Intelligence and Conflict Management"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Systems Thinking"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Engineering Sense"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Creativity and Thinking Skills"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Cross-cultural Understanding and Personal Grooming"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Fiscal and Economic Sense"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Presentation Skills"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Personal and Professional Development"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSGN3001.html"
+  },
+  {
+    "Course ID": "BSHS1001",
+    "Course Name": "English I",
+    "Course Level": "Foundation",
+    "Course Credits": "4",
+    "Course Type": "Foundational",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Acquiring wide range of vocabulary and linguistic competence that is required for functional performance;",
+      "Identifying patterns of basic sentence types and structural accuracy;",
+      "Building elementary foundations for the knowledge related to conventions and use of language in society, particularly in speaking and listening skills;",
+      "Developing the basic skills for creative reading and writing with precision."
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Sounds and Words (Vowel and Consonant sounds)"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Parts of Speech"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Sentences (Phrases and Idioms)"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Speaking Skills (Spoken English Preliminaries)"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Tenses and Agreement in English Sentences"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Reading Skills (Skimming, Scanning and Comprehension)"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Listening Skills"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Aspiration, Word Stress and Syllabification"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Speaking Skills (Presentation and Group Discussion)"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Grammar (Common Errors in English) and Writing Skills"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Writing Skills (Basics of Writing)"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Writing Skills (Professional Writing)"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSHS1001.html"
+  },
+  {
+    "Course ID": "BSHS1002",
+    "Course Name": "English II",
+    "Course Level": "Foundation",
+    "Course Credits": "4",
+    "Course Type": "Foundational",
+    "Pre-requisites": "BSHS1001 -  English I",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Integrating the basic skills of language into developing advanced skills of language proficiency to help compose clear and detailed writing on a range of subjects;",
+      "Learning advanced level of vocabulary and socio-linguistic/ socio-pragmatic competence for advance reading and writing;",
+      "Building nuanced structure for grammatical accuracy for fluency and creating confidence and appropriateness for expressing view-points clearly;",
+      "Developing elementary foundations for comprehending and conveying underlying meaning in spoken discourse"
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Patterns in Sentences"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Patterns in Sentences (Continued)"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Patterns in Sentences (Continued)"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Listening Skills"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Listening Skills (Continued)"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Speaking Skills"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Speaking Skills (Continued)"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Reading Skills"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Writing Skills"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Writing Skills (Continued)"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Social Skills"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Social Skills (Continued)"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSHS1002.html"
+  },
+  {
+    "Course ID": "BSMA1001",
+    "Course Name": "Mathematics for Data Science I",
+    "Course Level": "Foundation",
+    "Course Credits": "4",
+    "Course Type": "Foundational",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Recall the basics of sets, natural numbers, integers, rational numbers, and real numbers.",
+      "Learn to use the coordinate system, and plot straight lines.",
+      "Identify the properties and differences between linear, quadratic, polynomial, exponential, and logarithmic functions.",
+      "Find roots, maxima and minima of polynomials using algorithmic methods.",
+      "Learn to represent sets and relations between set elements as discrete graphs using nodes and edges.",
+      "Formulate some common real-life problems on graphs and solve them."
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Set Theory - Number system, Sets and their operations, Relations and functions - Relations and their types, Functions and their types"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Rectangular coordinate system, Straight Lines - Slope of a line, Parallel and perpendicular lines, Representations of a Line, General equations of a line, Straight-line fit"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Quadratic Functions - Quadratic functions, Minima, maxima, vertex, and slope, Quadratic Equations"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Algebra of Polynomials - Addition, subtraction, multiplication, and division, Algorithms, Graphs of Polynomials - X-intercepts, multiplicities, end behavior, and turning points, Graphing & polynomial creation"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Functions - Horizontal and vertical line tests, Exponential functions, Composite functions, Inverse functions"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Logarithmic Functions - Properties, Graphs, Exponential equations, Logarithmic equations"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Sequence and Limits - Function of One variable - • Function of one variable • Graphs and Tangents • Limits for sequences • Limits for function of one variable • Limits and Continuity"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Derivatives, Tangents and Critical points - • Differentiability and the derivative • Computing derivatives and L’Hˆopital’s rule • Derivatives, tangents and linear approximation • Critical points: local maxima and minima"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Integral of a function of one variable - • Computing areas, Computing areas under a curve, The integral of a function of one variable • Derivatives and integrals for functions of one variable"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Graph Theory - Representation of graphs, Breadth-first search, Depth-first search, Applications of BFS and DFS; Directed Acyclic Graphs - Complexity of BFS and DFS, Topological sorting"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Longest path, Transitive closure, Matrix multiplication Graph theory Algorithms - Single-source shortest paths, Dijkstra's algorithm, Bellman-Ford algorithm, All-pairs shortest paths, Floyd–Warshall algorithm, Minimum cost spanning trees, Prim's algorithm, Kruskal's algorithm"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Revision"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMA1001.html"
+  },
+  {
+    "Course ID": "BSMA1002",
+    "Course Name": "Statistics for Data Science I",
+    "Course Level": "Foundation",
+    "Course Credits": "4",
+    "Course Type": "Foundational",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Create, download, manipulate, and analyse data sets.",
+      "Frame questions that can be answered from data in terms of variables and cases.",
+      "Describe data using numerical summaries and visual representations.",
+      "Estimate chance by applying laws of probability.",
+      "Translate real-world problems into probability models.",
+      "Calculating expectation and variance of a random variable.",
+      "Describe and apply the properties of the Binomial Distribution and Normal distribution."
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction and type of data, Types of data, Descriptive and Inferential\nstatistics, Scales of measurement"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Describing categorical data\nFrequency distribution of\ncategorical data, Best practices for\ngraphing categorical data, Mode and median for\ncategorical variable"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Describing numerical data\nFrequency tables for numerical data, Measures of central tendency - Mean, median and mode, Quartiles and percentiles, Measures of dispersion - Range, variance, standard deviation and IQR, Five number summary"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Association between two variables - \nAssociation between two categorical variables - Using relative frequencies in contingency tables, Association between two numerical variables - Scatterplot, covariance, Pearson correlation coefficient, Point bi-serial correlation coefficient"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Basic principles of counting and factorial concepts - \nAddition rule of counting, Multiplication rule of\ncounting, Factorials"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Permutations and combinations"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Probability\nBasic definitions of\nprobability, Events, Properties of probability"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Conditional probability - \nMultiplication rule, Independence, Law of total probability, Bayes’ theorem"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Random Variables - \nRandom experiment, sample space and random variable, Discrete and continuous random variable, Probability mass function, Cumulative density function"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Expectation and Variance -\nExpectation of a discrete random variable, Variance and standard deviation of a discrete random variable"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Binomial and poisson random variables  - \nBernoulli trials, Independent and identically distributed random variable, Binomial random variable, Expectation and variance of abinomial random variable, Poisson distribution"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Introduction to continous random variables - \nArea under the curve, Properties of pdf, Uniform distribution, Exponential distribution"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMA1002.html"
+  },
+  {
+    "Course ID": "BSMA1003",
+    "Course Name": "Mathematics for Data Science II",
+    "Course Level": "Foundation",
+    "Course Credits": "4",
+    "Course Type": "Foundational",
+    "Pre-requisites": "BSMA1001 -  Mathematics for Data Science I",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Manipulating matrices using matrix algebra.",
+      "Performing elementary row operations.",
+      "Using Gaussian Elimination: Solving systems of linear equations. Find out whether a set of vectors are linearly independent. Writing down a set of dependencies in case vectors are not linearly independent. Finding subspaces along with their bases and ranks.",
+      "Finding distances and angles using norms and inner products.",
+      "Obtaining orthonormal basis using the Gram-Schmidt process.",
+      "Finding maxima and minima of single variable functions using derivatives.",
+      "Finding maxima and minima of multivariate functions using vector calculus."
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Vector and matrices -        \nVectors;\nMatrices;\nSystems of Linear Equations;\nDeterminants (part 1);\nDeterminants (part 2)"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Solving linear equations -        \nDeterminants (part 3);\nCramer's Rule;\n\"Solutions to a system of linear equations\nwith an invertible coefficient matrix\";\nThe echelon form;\nRow reduction;\nThe Gaussian elimination method"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Introduction to vector spaces -        \nIntroduction to vector spaces;\nSome properties of vector spaces;\nLinear dependence;\nLinear independence - Part ;\nLinear independence - Part 2"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Basis and dimension -        \nWhat is a basis for a vector space?;\nFinding bases for vector spaces;\nWhat is the rank/dimension for a vector space;\nRank and dimension using Gaussian elimination"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Rank and Nullity of a matrix;\nIntroduction to Linear transformation -        \nThe null space of a matrix : finding nullity and a basis - Part 1;\nThe null space of a matrix : finding nullity and a basis - Part 2;\nWhat is a linear mapping - Part 1;\nWhat is a linear mapping - Part 2;\nWhat is a linear transformation"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Linear transformation, Kernel and Images -        \nLinear transformations, ordered bases and matrices;\nImage and kernel of linear transformations;\nExamples of finding bases for the kernel and image of a linear transformation"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Equivalent and Similar matrices;\nIntroduction to inner products -        \nEquivalence and similarity of matrices;\nAffine subspaces and affine mappings;\nLengths and angles;\nInner products and norms on a vector space"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Orthogonality, Orthonormality;\nGram-schmidt method - \nOrthgonality and linear independence;\nWhat is an orthonormal basis?\nProjections using inner products;\nThe Gram-Schmidt process;\nOrthogonal transformations and rotations"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Multivariable functions, Partial derivatives,\nLimit, continuity and directional derivatives -        \nMultivariable functions : visualization;\nPartial derivatives;\nDirectional derivatives;\nLimits for scalar-valued multivariable functions;\nContinuity for multivariable functions;\nDirectional derivatives in terms of the gradient"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Directional ascent and descent,\nTangent (hyper) plane,\nCritical points -         \nThe directional of steepest ascent/descent;\nTangents for scalar-valued multivariable functions;\nFinding the tangent hyper(plane);\nCritical points for multivariable functions"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Higher order partial derivatives,\nHessian Matrix and local extrema,\nDifferentiability -        \nHigher order partial derivatives and the Hessian matrix;\nThe Hessian matrix and local extrema for f(x,y);\nThe Hessian matrix and local extrema for f(x,y,z);\nDifferentiability for Multivariable Functions;\nReview of Maths - 2"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMA1003.html"
+  },
+  {
+    "Course ID": "BSMA1004",
+    "Course Name": "Statistics for Data Science II",
+    "Course Level": "Foundation",
+    "Course Credits": "4",
+    "Course Type": "Foundational",
+    "Pre-requisites": "BSMA1002 -  Statistics for Data Science IBSMA1001 -  Mathematics for Data Science I",
+    "Co-requisites": "BSMA1003 -  Mathematics for Data Science II",
+    "What you'll learn": [
+      "Recalling statistical modeling, description of data.",
+      "Applying Probability distributions and related concepts to the data sets",
+      "Explaining the concept of estimation of parameters.",
+      "Solving the problems related to point and interval estimation.",
+      "Explaining the concept of Testing of hypothesis related to mean and variance",
+      "Analysing the data using simple regression models and setting up relevant hypothesis tests"
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Multiple random variables - Two random variables, Multiple random variables and distributions"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Multiple random variables - Independence, Functions of random variables - Visualization, functions of multiple random variables"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Expectations Casino math, Expected value of a random variable, Scatter plots and spread, Variance and standard deviation, Covariance and correlation, Inequalities"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Continuous random variables Discrete vs continuous, Weight data, Density functions, Expectations"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Multiple continuous random variables - Height and weight data, Two continuous random variables, Averages of random variables - Colab\nillustration, Limit theorems, IPL data - histograms and approximate distributions, Jointly Gaussian random variables Probability models for data - Simple models, Models based on other distributions, Models with multiple random variables, dependency, Models for IPL powerplay, Models from data"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Refresher week"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Estimation and Inference I"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Estimation and Inference II"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Bayesian estimation"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Hypothesis testing I"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Hypothesis Testing II"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Revision week"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMA1004.html"
+  },
+  {
+    "Course ID": "BSMA2001",
+    "Course Name": "Mathematical Thinking",
+    "Course Level": "Diploma",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "triangular numbers, Sigma Notation for Summation, Sequences, Peano's axioms for the natural numbers,\nSet Theory: the language of Mathematics, Hilbert Hotel, Bijections and Cardinality, The Natural Numbers,\nThe Integers"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "A Trip to Cantorsville, Cantor's Diagonalization Argument, Towards the Real Numbers, Ordered Field,\nCompleteness Axiom, The Least Upper Bound Property, Mathematical Logic and Statements"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Currency Game, Divisibility, Greatest Common Divisor, The Euclidean Algorithm, Proof of the Euclidean\nAlgorithm, Test for Divisibility"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Fermat's Little Theorem, Fundamental Theorem of Arithmetic, Modular Arithmetic, Arithmetic with\nCongruences, Infinitude of Primes, Inclusion–Exclusion Principle"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Proof of Inclusion-Exclusion Principle, Pigeonhole Principle, Sieve of Eratosthenes, More on the\nInfinitude of Primes, Gaps Between Primes"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Binomial Coefficients, Binomial Theorem, Lattice Paths, Random Sampling, Permutations, Example\nof Inclusion-Exclusion Principle"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Graph Theory - Introduction, Connectedness and Distance in Graphs, Adjacency Matrix, Graph Trees,\nSperners Lemma, Graph Coloring"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Limit of a Sequence, Properties of Limits, Sequential Continuity, Continuity of Trigonometric\nfunctions, Intermediate Value Theorem"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Limit of Fibonacci series, Lamé formula, Sandwich Lemma, Shifting Lemma"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Derivatives, Faà di Bruno's formula"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Riemann Integrals, Mean Value Theorem"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Uniform continuity, Fundamental theorem of calculus"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMA2001.html"
+  },
+  {
+    "Course ID": "BSMA3012",
+    "Course Name": "Linear Statistical Models",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Review of Estimation, Hypothesis Testing"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Review of working with R-package"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Least square estimation, estimable linear functions"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Normal equations"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Best Linear Unbiased Estimates (BLUEs)."
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Gauss-Markov Theorem."
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Degrees of freedom. Fundamental Theorems of Least Square."
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Testing of linear hypotheses."
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "One-way and two-way classification models"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "ANOVA and ANCOVA."
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Nested models. Multiple comparisons"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Introduction to random effect models."
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMA3012.html"
+  },
+  {
+    "Course ID": "BSMA3014",
+    "Course Name": "Statistical Computing",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction to R, Introduction to Monte Carlo, Pseudorandom Number Generation, Sampling Discrete Random Variables: Inverse Transform Method"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Discrete:  Accept-Reject Algorithm, Composition Method, Sampling Continuous Random Variables: Inverse Transform Method"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Continuous: Accept-reject Algorithm with examples,  Box-Muller method"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Continuous: Ratio-of-Uniforms method, examples and code, miscellaneous methods in sampling, Sampling from multivariate distritbutions"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Simple Importance Sampling: Examples, bias, variance, consistency, Optimal proposals,"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Weighted importance sampling: Examples, Review of likelihood functions, MLE examples"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Linear regression as MLE, Penalized regression, No-closed form MLEs, Review of Taylor Series Approximations"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Newton's optimization algorithm: examples and code, Gradient Descent algorithm, applications to logistic regression with code"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "MM algorithm, application to Bridge Regression, EM algorithm, Introduction to Gaussian Mixture Model"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "EM algorithm for GMM, Cross-validation with examples"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Bootstrapping: examples and code. Application to bridge regression, stochastic gradient descent"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Applications of SGD with code. Simulated annealing: examples, codes, and challenges"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMA3014.html"
+  },
+  {
+    "Course ID": "BSMS2001",
+    "Course Name": "Business Data Management",
+    "Course Level": "Diploma",
+    "Course Credits": "4",
+    "Course Type": "Data Science",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Understand the business context: consumption patterns, micro-economic concepts underlying demand and supply",
+      "Analyse firm-level and industry-level data",
+      "Discover how businesses operate, and how they are actively managed using data dashboards",
+      "Get a handle on the data that originates from business processes",
+      "Identify the techniques used to represent and structure this data",
+      "Gain skills on the use of worksheets to organise, interpret and present data",
+      "Working with large data sets"
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Consumption and demand: Micro & Macro economics: the role of data,  production, consumption and exchange, consumption baskets, sources of consumer survey data"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Micro-economic concepts: Utility: cardinal vs ordinal, indifference curves. Demand and supply curves, changes in demand and elasticity. production cost, cost curves. Make vs buy decisions, production quantity decisions"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Firm level strategies and performance data: Objectives and types of pricing strategies, analysis of firm performance - key ratios. Analysis examples: Ultratech, Page Industries, Nestle, TCS"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Analysing industry level data: Industry definition and classification codes, IIP and PMI, industry market structure and concentration indices, competitive positioning in an industry - Porter's five forces. Analysis examples:  Cement industry, Textile industry, FMCG industry, IT industry"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Case study 1 - Fabmart (E-Commerce): Introduction to E-Commerce, Fabmart case introduction, explanation of data set & questions to be answered, revenue pareto, volume pareto, scatter plot of sales and revenue, revenue trend"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Fabmart case continued: Sales analysis, organisation of distribution centre, analysis of sales trends, average days of inventory, ledger, avoiding stockouts"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Case study 2 - Ace Gears (Manufacturing):  Introduction to the manufacturing sector, context of the automotive industry during the years 2019-2021, explanation of data set containing monthly information on sales, production, inventory and costing. Revenue trend analysis, portfolio management"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Ace Gears case study continued: \nRegional sales analysis, sales agent planning, production scheduling, scrap analysis, unit level profitability analysis, raw material re-ordering and safety stock"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Case study 3 - Tech Enterprises (IT): Introduction to HR as a function, Introduction to the Tech Enterprises, internal sourcing, ranking of internal candidates, job description, sourcing channels and their analysis, recruitment process and onboarding"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Case study 4 - PayBuddy (Fin Tech): Introduction to Finance Industry and Fintech, payment processing and money flow, new credit product introduction, nudge economics, payment transaction and customer data set, identifying rules to target the appropriate customers"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Paybuddy case continued: Introduction to A/B testing, analysis of the  A/B testing data, credit risk evaluation, risk-return tradeoffs"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Discussion on student acquired data sets. Wrap upaWrap up (summary) of the case studies, course project work"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMS2001.html"
+  },
+  {
+    "Course ID": "",
+    "Course Name": "Business Data Management - Project",
+    "Course Level": "",
+    "Course Credits": "2",
+    "Course Type": "Data Science",
+    "Pre-requisites": "None",
+    "Co-requisites": "BSMS2001 -  Business Data Management",
+    "What you'll learn": [
+      "In the proposal stage, the student is expected to provide information about the organization and its background, problem definition/ statement, the background of the problem, the problem-solving approach they wish to use with justification, the expected timelines for project completion and the probable outcomes of the project.",
+      "In the midterm submission, students must provide a short video interaction clip with the business owner/ manager, tangible evidence like pictures, field notes etc., provide information on the meta data and descriptive statistics, conduct preliminary analysis, provide an interpretation of the results and findings.",
+      "The final report submission is a complete report and involves in-depth explanation of the entire process from start to finish.",
+      "The viva voce is conducted following acceptance of the final submission and for this, the student needs to make a presentation not exceeding 10 slides.",
+      "How to reach out and collect primary data, identify the issues or the problem(s), clean the data.",
+      "Explain and justify the reasoning behind using a particular approach, report them in a professional manner, by knitting one section to the next and how the novel insights benefits decision maker(s).",
+      "Hands-on experience in dealing with real world\nproblems and providing solutions."
+    ],
+    "Weekwise Structure": [],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMS2001P.html"
+  },
+  {
+    "Course ID": "BSMS2002",
+    "Course Name": "Business Analytics",
+    "Course Level": "Diploma",
+    "Course Credits": "4",
+    "Course Type": "Data Science",
+    "Pre-requisites": "BSMS2001 -  Business Data Management",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "At the end of the this course, the students will be able to apply various statistical techniques to solve various business problems.",
+      "Extrapolate using various techniques and with statistical robustness.",
+      "Build data-centric business models."
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Data dashboarding Insights from data summary"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Can summarizing the data provide insights?"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Do people in different cities prefer different\nbrand?"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Predicting the stock returns – Regression basics"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "How do you pay a professor? – Regression diagnostics - Path variables"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Can I cure cancer? – Logistic Regression - Connection with classification problem"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "What is the impact of repeatedly watching the same ad? Repeated measures ANOVA"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "When the data has a time axis: Time series modeling"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMS2002.html"
+  },
+  {
+    "Course ID": "BSMS3002",
+    "Course Name": "Market Research",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Identify and distinguish marketing problems from symptoms",
+      "Translate marketing problems into researchable questions",
+      "Select appropriate research designs to answer your research questions",
+      "Select suitable methods of data collection",
+      "Analyze the data using appropriate statistical methods to give the results",
+      "Interpret the results to help solve the marketing problems."
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Marketing Research, the Research Process and Problem Formulation: The Role of Research in Marketing and the Marketing Research Process, Defining the Marketing Research Problem and Developing an Approach"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Research Design Formulation: Research Design, Exploratory Research Design, Descriptive Research Design, Causal Research Design and Test Markets"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Designing Data Collection Methods and Forms: Surveys and Interviews, Measurement, Measurement Scales, Questionnaires, and Instruments"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Different Market Research Applications, and the Industry Approach to each: Key marketing issues like new product development, STP, branding, etc. and the MR tools and techniques to address each"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Data Analysis and Interpretation: Entering the Data in SPSS, Examining the Data and Univariate Data Analysis: Descriptive Statistics, Cross Tabulation, Graphical Display of Data, Chart Deception and Hypothesis Testing: Mean Differences, ANOVA, Multivariate Data Analysis: An Overview, Exploratory Factor Analysis, Cluster Analysis, Multiple Regression in SPSS"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMS3002.html"
+  },
+  {
+    "Course ID": "BSMS3033",
+    "Course Name": "Managerial Economics",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Demand, Supply, and markets"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Elasticity and Empirical Methods for Demand Analysis"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Consumer Behavior"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Technology, Production, and Costs"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Perfectly Competitive Market"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Monopoly"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Monopsony and Monopolistic Competition"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Decisions under Risk and Uncertainty"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Asymmetric Information"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Government and Businesses"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Platform Businesses"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMS3033.html"
+  },
+  {
+    "Course ID": "BSMS3034",
+    "Course Name": "Corporate Finance",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction to Finance"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Present Value, Annuities and Perpetuities"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Capital Budgeting Rules, Time Varying Rates of Return, Uncertainty, Default and Risk"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Investment: Risk and Rewards, Choice Under Uncertainty"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Portfolio Theory"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Capital Asset Pricing Theory"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Other Pricing Models: Factor Models, Arbitrage Pricing Theory"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Market Efficiency: Market Imperfections, and Applications to Capital Budgeting Rules"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Introduction to Derivative Securities and Basic Options Theory I"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Introduction to Derivative Securities and Basic Options Theory II"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Foreign Exchange Markets and International Financial System"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Financial Crises"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMS3034.html"
+  },
+  {
+    "Course ID": "BSMS4001",
+    "Course Name": "Industry 4.0",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction to Industry 4.0 – Evolution and history"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Pillars of Industry 4.0"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Industry 4.0 – India context"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Supplier selection as a classification problem"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Manufacturing 4.0"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Prognosis"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Quality 4.0"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Inventory Optimization"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Dynamic Pricing"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Logistics 4.0"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Future of Manufacturing Business Focus on new paradigm"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Next decade of Industry 4.0"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMS4001.html"
+  },
+  {
+    "Course ID": "BSMS4002",
+    "Course Name": "Design Thinking for Data-Driven App Development",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [
+      "Design Thinking & empathy-first problem solving: interview, observe, and define user needs",
+      "Agile-inspired workflows: analyze, iterate rapidly, and validate ideas",
+      "Low-/no-code prototyping: use tools like Mural, Figma, and Bubble",
+      "Marketing, customer support, & IP fundamentals: understand go-to-market strategies, patents, and copyrights",
+      "User-experience design & iteration: gather feedback and refine flows",
+      "Persuasive pitching & entrepreneurship basics"
+    ],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction to Design Thinking – Course outline and projects, Intro to the Design of Everyday Things, Project management"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Empathize – P1 – Persona Creation, Customer Journey Mapping, Design Paradox"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Empathize – P1 – List of problems, How Might We questions"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Analyze – P1 – Multi-Why, Conflict of Interest, Demo on a real problem"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Solve – P1 – Silent brainstorming, Inventive Principles, Concept creation"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Test – P1, Empathize – P2 Assumptions, Features, Field trials, Basics of Digital Marketing"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Website Design & Development, User Experience Design, Prototypes"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Analyze – P2, Introduction to Intellectual Property - Patents, Copyrights"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Solve – P2, Presentation Skills for Effective Pitches to Customers, Investors, and Stakeholders"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Test – P2, Empathize – P3 – Obtaining insights/ feedback from the customers or target users"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Analyze – P3, Human factors in design"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Test – P3, Launch of the App, Intrapreneurship and Innovation"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMS4002.html"
+  },
+  {
+    "Course ID": "BSMS4003",
+    "Course Name": "Financial Forensics",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "INTRODUCTION TO ACCOUNTING AND FINANCE: Financial Statements | Uses relevance of financial statements | Decision making in the financial arena | Need for finance and accounting in a business world"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "FRAUD VULNERABILITIES AND FINANCE: Types of fraud | Why do they occur | Where do they occur | Detecting red flags"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "FORENSIC ACCOUNTING - 1: Intro to Forensic Accounting | Source of assignments and referrals for a forensic accountant | Role of the forensic accountant as an expert - identify any conflicts"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "FORENSIC ACCOUNTING - 2: Scope of forensic accounting | Process of forensic accounting - Analysis"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "BENFORD LAW AND IMPLEMENTATION: Benford Law | Using Benford Law in Excel to detect audit fraud"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "AGING ANALYSIS, PARETO AND OUTLIERS: Detecting fraud using Aging Analysis in Excel | Creating a Pareto Chart | Outlier identification"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "FINANCIAL TRANSACTION LIFECYCLE: Transaction Lifecycle | Where is AI/ML used in the present world?"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "ENTITY RESOLUTION: What is an entity in a transaction? | Entity resolution"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "ANOMALY DETECTION - 1: Supervised Anomaly Detection"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "ANOMALY DETECTION - 2: Unsupervised Anomaly Detection"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "ANOMALY DETECTION - 3: Time Based Anomaly Detection"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Model Explainability | Financial Data Visualization using Tableau"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMS4003.html"
+  },
+  {
+    "Course ID": "BSMS4023",
+    "Course Name": "Game Theory and Strategy",
+    "Course Level": "Degree",
+    "Course Credits": "4",
+    "Course Type": "Elective",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction and General Principles"
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Games with Simultaneous Moves I"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Games with Simultaneous Move II"
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Games with Sequential Moves"
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "Combining Sequential and Simultaneous Moves and Mixed Strategies"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Evolutionary game Theory"
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Matching Problem, Gale-Shapley Algorithm"
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Voting, Cascades, and Arrow’s Impossibility Theorem"
+      },
+      {
+        "week": "WEEK 9",
+        "topics": "Cooperative Games, Shapley Values"
+      },
+      {
+        "week": "WEEK 10",
+        "topics": "Fair Division, Bankruptcy Problems"
+      },
+      {
+        "week": "WEEK 11",
+        "topics": "Auctions"
+      },
+      {
+        "week": "WEEK 12",
+        "topics": "Network Effects"
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSMS4023.html"
+  },
+  {
+    "Course ID": "BSSE2001",
+    "Course Name": "System Commands",
+    "Course Level": "Diploma",
+    "Course Credits": "3",
+    "Course Type": "Programming",
+    "Pre-requisites": "None",
+    "Co-requisites": null,
+    "What you'll learn": [],
+    "Weekwise Structure": [
+      {
+        "week": "WEEK 1",
+        "topics": "Introduction to GNU/Linux OS.\nSetting up and running Linux environment. \nThe command line environment.\nKnowing hardware of your machine \nInformation - commands such as hwinfo, lshw, df, free etc.\nDiagnostics - commands to fetch hardware information such as battery state, memory modules etc.,\nKnowing the OS and software of your machine\nCommands to get details about operating system, versions etc. \nPackages - installed / available\nInput / output redirection."
+      },
+      {
+        "week": "WEEK 2",
+        "topics": "Introduction to packages and repositories.\nUsing 'apt' commands to manage packages.         \nFile types and related commands.\nUnderstanding file permissions and access modes.\nManaging file permissions through symbolic and numeric mode. \nConcept of environment variables. Important environment variables such as $HOME, $USER and $PATH"
+      },
+      {
+        "week": "WEEK 3",
+        "topics": "Managing shell variables.\nPrompt strings.\nSymbolic links and hard links, brief introduction to inode numbers.\nExploring the root file system and related commands.\nUsing shell shortcuts with commands. \nSlicing output.\nManaging programs currently running on the machine.\nShell access to a local / remote machine."
+      },
+      {
+        "week": "WEEK 4",
+        "topics": "Redirection to script, variable and for logging purpose.\nUsing pipes.\nIntroduction to regex; using regex patterns and egrep.\nUsing egrep to extract useful information from files.\nfind command and its uses - patterns to pick specific files in a folder, using exec \nCommand line editors (nano, vi, emacs - syntax highlighting & prompting, configuring options)\nWriting and running simple Bash scripts."
+      },
+      {
+        "week": "WEEK 5",
+        "topics": "How are shell scripts interpreted?\nUsing variables in scripts.\nPassing command line arguments to scripts, to create your own commands.\nMore shell programming.\nWriting conditional statements using if /else / fi.                 \nIntroduction to loops.                 \nUsing functions         \nConfiguring startup / periodic / recurring tasks"
+      },
+      {
+        "week": "WEEK 6",
+        "topics": "Text processing using AWK language.         \nUsing awk to run statics on a data file.        \nUsing regex within awk.        \nAwk as a programming language\nIntroduction to 'sed' – another text processing utility.\nLine by line processing to replace a regex pattern with a string.        \nUse of place holders for matching regex patterns for use in replacing strings."
+      },
+      {
+        "week": "WEEK 7",
+        "topics": "Introduction to make utility; concept of target and dependency; actions performed by make; conditional compilation; passing shell variables to make;\nFile packaging utilities such as compress, tar, zip, gzip, bzip2, xz.\nNetworking concepts\nIntroduction to IP addresses.\nConcept of localhost. Intranet and public addresses.\nConcept of ports and services that run on these ports.        \nConcept of DNS and Domain names.\nNetwork diagnostics using tools and commands.\nScripting a tool for analysis of logs."
+      },
+      {
+        "week": "WEEK 8",
+        "topics": "Introduction to RAID for handling hardware failure.\nIntroduction to version control\nGit as a version control system:\nOverview of Git workflow \nBranches, repositories, forks, etc.\nCreating and merging pull requests.\nPersonal access tokens.\nManaging changes as local and remote.\nWorking demo of a public repository using Git\nApproval workflow \nHow a team collaborates on the private repository in an organization.\nManaging pull requests for the owner, raising issues and resolving them."
+      }
+    ],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSSE2001.html"
+  },
+  {
+    "Course ID": "BSSE2002",
+    "Course Name": "Tools in Data Science",
+    "Course Level": "Diploma",
+    "Course Credits": "3",
+    "Course Type": "Data Science",
+    "Pre-requisites": "Python, HTML, JavaScript, Excel, data science basics",
+    "Co-requisites": "BSCS2008 -  Machine Learning Practice",
+    "What you'll learn": [],
+    "Weekwise Structure": [],
+    "URL": "https://study.iitm.ac.in/ds/course_pages/BSSE2002.html"
+  }
+]

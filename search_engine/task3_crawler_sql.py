@@ -21,7 +21,8 @@ def init_db(conn):
         error INTEGER,
         last_crawled TIMESTAMP,
         old_rank REAL,
-        new_rank REAL
+        new_rank REAL,
+        out_degree INTEGER DEFAULT 0
     )""")
     cur.execute("""CREATE TABLE IF NOT EXISTS Links (
         from_id INTEGER,
@@ -30,6 +31,11 @@ def init_db(conn):
         FOREIGN KEY(from_id) REFERENCES Pages(id),
         FOREIGN KEY(to_id) REFERENCES Pages(id)
     )""")
+
+    # Create indexes for performance on PageRank queries
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_links_to_id ON Links(to_id)")
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_links_from_id ON Links(from_id)")
+
     cur.execute("""CREATE TABLE IF NOT EXISTS Webs (url TEXT UNIQUE)""")
     conn.commit()
 
@@ -55,7 +61,7 @@ def record_error(cur, conn, url, err_code=-1):
     conn.commit()
 
 
-def record_link_if_html(cur, from_id, to_url):
+def record_link_if_html(cur, conn, from_id, to_url):
     """Insert link only if to_url is HTML."""
     try:
         response = requests.head(to_url, allow_redirects=True, timeout=5)
@@ -73,8 +79,14 @@ def record_link_if_html(cur, from_id, to_url):
         return None
     to_id = row[0]
 
-    # Insert link relation
+    # Insert link relation (returns rows affected)
     cur.execute("INSERT INTO Links (from_id, to_id) VALUES (%s, %s) ON CONFLICT (from_id, to_id) DO NOTHING", (from_id, to_id))
+
+    # Only increment out_degree if this was a new link (rowcount > 0)
+    if cur.rowcount > 0:
+        cur.execute("UPDATE Pages SET out_degree = out_degree + 1 WHERE id = %s", (from_id,))
+        conn.commit()
+
     return to_id
 
 # ---- crawler loop (DB-driven) ----
@@ -128,7 +140,7 @@ def db_crawl(start_url, db_host, db_user, db_password, db_name, max_pages=10, de
         for href in found:
             # scope check
             if any(href.startswith(root) for root in root_list):
-                record_link_if_html(cur, from_id, href)
+                record_link_if_html(cur, conn, from_id, href)
 
         time.sleep(delay)
 
@@ -151,7 +163,7 @@ if __name__ == "__main__":
     # PostgreSQL connection parameters
     db_host = input("Enter PostgreSQL host [default: localhost]: ").strip() or "localhost"
     db_user = input("Enter PostgreSQL user [default: postgres]: ").strip() or "postgres"
-    db_password = input("Enter PostgreSQL password [default: Dragon@009]: ").strip() or "Dragon@009"
+    db_password = input("Enter PostgreSQL password [default: password]: ").strip() or "password"
     db_name = input("Enter PostgreSQL database name [default: spider_db]: ").strip() or "spider_db"
 
     db_crawl(start, db_host=db_host, db_user=db_user, db_password=db_password, db_name=db_name, max_pages=max_pages, delay=0.5)
