@@ -16,39 +16,43 @@ def fetch_html(url, time_out=10):
 def sanitize_url(href, base_url):
     """
     Clean and normalize a URL:
-    - Resolve relative URLs to absolute
-    - Remove fragments (#...)
-    - Remove trailing slash
-    - Skip unwanted schemes and file types
+    - Resolves relative URLs correctly using urljoin before parsing.
+    - Uses urllib.parse for robust component handling.
+    - Adds case-insensitivity for extension checks.
+    - Preserves query parameters.
     """
     if not href:
         return None
 
-    # Skip non-HTTP(s) links (like mailto:, javascript:)
-    up = urlparse(href)
-    if up.scheme not in ('http', 'https', ''):
+    # Resolve relative URLs first
+    absolute_url = urljoin(base_url, href)
+
+    # Parse using urllib for reliability
+    parsed = urlparse(absolute_url)
+
+    # Filter schemes (strict HTTP/HTTPS)
+    if parsed.scheme not in ('http', 'https'):
         return None
 
-    # Resolve relative URLs
-    if len(up.scheme) < 1:
-        href = urljoin(base_url, href)
-
-    # Remove fragment
-    href = href.split('#', 1)[0]
-
-    # Skip images and binary files
-    if href.endswith(('.png', '.jpg', '.gif', '.svg', '.pdf', '.zip')):
+    # Skip unwanted file types (case-insensitive)
+    unwanted_extensions = ('.png', '.jpg', '.jpeg', '.gif', '.svg', '.pdf', '.zip', '.bmp')
+    if parsed.path.lower().endswith(unwanted_extensions):
         return None
 
-    # Normalize trailing slash
-    if href.endswith('/'):
-        href = href[:-1]
+    # Normalize: Path trailing slash (only for paths > 1)
+    # Reconstruct the path without the trailing slash
+    path = parsed.path
+    if len(path) > 1 and path.endswith('/'):
+        path = path[:-1]
 
-    # Ensure it's not empty after cleaning
-    if len(href) < 1:
-        return None
+    # Reconstruct the URL properly
+    # Using _replace to build the clean URL structure
+    sanitized = parsed._replace(
+        path=path,
+        fragment=''  # Explicitly remove fragment
+    )
 
-    return href
+    return sanitized.geturl()
 
 def extract_links(html, base_url):
     soup = BeautifulSoup(html, 'html.parser')
